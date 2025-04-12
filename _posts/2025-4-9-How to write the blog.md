@@ -1,38 +1,38 @@
 # About the details of writing blog
-作为一个从未写过博客的新人，哪怕生成了第一篇博客，还是有很多细节上不太能理解，因此写此篇博客来记录如何使用这个平台。
+As a newcomer who has never blogged before, even after generating my first blog, there are still a lot of details that I can't quite understand, so I'm writing this blog to document how to use this platform.
 
-首先是文件夹的含义：  
-_config.yml 全局配置文件  
-_posts 放置博客文章的文件夹  
-img 存放图片的文件夹  
+First is the meaning of folder:  
+- _config.yml: Global Configuration File  
+- _posts Folders: for blog posts  
+- img: The folder where the pictures are stored  
 
-博客文章格式采用是 MarkDown + YAML 的方式，所以我们接下来了解这两个的格式应该怎么写  
+The blog post format is MarkDown + YAML, so let's find out how these two formats should be written!  
 
 ## YAML
 ### mapping
-对象的一组键值对，使用冒号结构表示 animal: pets  
-Yaml 也允许另一种写法，将所有键值对写成一个行内对象。hash: { name: Steve, foo: bar } 
+A set of key-value pairs for an object, using a colon structure animal: pets   
+Yaml also allows another way to write all key-value pairs as a single in-line object. hash: { name: Steve, foo: bar } 
 
 ### 数组
-一组连词线开头的行，构成一个数组。  
+A set of lines beginning with a hyphenated line forms an array.
 - Cat
 - Dog
 - Goldfish
-数组也可以采用行内表示法。  
+Arrays can also be represented in-line.  
 animal: [Cat, Dog]
 
 ### scalars
-字符串：字符串默认不使用引号表示，如果字符串之中包含空格或特殊字符，需要放在引号之中。  
-布尔值：用true和false表示。   
-整数/浮点数：数值直接以字面量的形式表示。  
-Null：用~表示。   
-时间：采用 ISO8601 格式   
-日期：日期采用复合 iso8601 格式的年、月、日表示。   
+String: strings are not quoted by default, if the string contains spaces or special characters, they need to be put in quotes.  
+Boolean: true and false.   
+Integer/Float: values are expressed directly as literals.  
+Null: indicated by ~.   
+Time: use ISO8601 format   
+Date: date is expressed as year, month and day in composite iso8601 format.   
 
-### 引用
-锚点&和别名*，可以用来引用。
+### References
+Anchors & and aliases *, can be used for references.
 
-具体教程可见 https://www.runoob.com/w3cnote/yaml-intro.html
+The tutorial can be found at  https://www.runoob.com/w3cnote/yaml-intro.html
 
 ## MarkDown
 https://markdown.com.cn/basic-syntax/
