@@ -1,5 +1,5 @@
 # What is t-SNE
-Reference from: https://zhuanlan.zhihu.com/p/148170862
+Reference from [here](https://zhuanlan.zhihu.com/p/148170862)
 
 t-Distributed Stochastic Neighbor Embedding (t-SNE) is a dimensionality reduction technique used to visualize high-dimensional datasets by representing them in a low-dimensional space in two or three dimensions.  
 
@@ -24,8 +24,7 @@ Thus, although the absolute distances between the two points are different, they
 
 ## Python code implementation
 
-https://blog.csdn.net/haoji007/article/details/94962952  
-https://www.cnblogs.com/PythonLearner/p/12903615.html  
+Reference from [here](https://blog.csdn.net/haoji007/article/details/94962952) and  [here](https://www.cnblogs.com/PythonLearner/p/12903615.html)
 
 Sklearn provides a unified and concise API to implement a variety of machine learning algorithms and processes that can help us quickly realize a variety of machine learning tasks.  
 
