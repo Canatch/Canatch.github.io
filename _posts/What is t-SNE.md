@@ -24,8 +24,21 @@ Thus, although the absolute distances between the two points are different, they
 
 ## Python code implementation
 
-https://www.runoob.com/sklearn/sklearn-intro.html  
+https://blog.csdn.net/haoji007/article/details/94962952
 Sklearn provides a unified and concise API to implement a variety of machine learning algorithms and processes that can help us quickly realize a variety of machine learning tasks.  
 
-
+A list of function parameters:
+-parameters 描述
+-n_components: Dimension of the embedding space.
+-perpexity: he degree of perplexity, it means how many neighboring points are considered in the optimization process of t-SNE, the default is 30, it is recommended to take a value between 5 and 50.
+-early_exaggeration: indicates the size of cluster spacing in the embedding space, the default is 12, the larger the value is, the larger the cluster spacing is after visualization.
+-learning_rate: ndicates the speed of gradient descent, the default is 200, it is recommended to take the value between 10 and 1000.
+-n_iter: the number of iterations, the default is 1000, custom settings should be guaranteed to be greater than 250
+-min_grad_norm: Stop optimization if the gradient is less than this value. Default is 1e-7
+-metric: Indicates how to measure the distance between vectors, default is Euclidean distance. If precomputed, the input X is the computed distance matrix. It can also be a custom distance metric function.
+-init: Initialization, default is random, value is random for random initialization, value is pca for initialization using PCA (commonly used), value is numpy array must be shape=(n_samples, n_components).
+-verbose: whether to print optimization information, take value 0 or 1, default is 0 => do not print information. The information to be printed are: number of nearest neighbors, time, σ, KL scatter, error, etc.
+-random_state: Random number seed, integer or RandomState object.
+-method: Two optimization methods: barnets_hut and exact, the first one takes O(NlogN), the second one takes O(N^2) but with small error, and the second one can't be used for millions of samples.
+-angle: When method=barnets_hut, this parameter is useful to equalize the efficiency and error, the default value is 0.5, the larger the value, the higher the efficiency & the larger the error, otherwise vice versa. When the value is between 0.2-0.8, there is no change.
 
