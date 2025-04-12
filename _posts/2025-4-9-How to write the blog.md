@@ -32,7 +32,7 @@ Date: date is expressed as year, month and day in composite iso8601 format.
 ### References
 Anchors & and aliases *, can be used for references.
 
-The tutorial can be found at  https://www.runoob.com/w3cnote/yaml-intro.html
+The tutorial can be found at [here](https://www.runoob.com/w3cnote/yaml-intro.html)
 
 ## MarkDown
-https://markdown.com.cn/basic-syntax/
+The tutorial can be found at [here](https://markdown.com.cn/basic-syntax/)
