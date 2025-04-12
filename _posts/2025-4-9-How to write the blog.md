@@ -13,7 +13,7 @@ The blog post format is MarkDown + YAML, so let's find out how these two formats
 A set of key-value pairs for an object, using a colon structure animal: pets   
 Yaml also allows another way to write all key-value pairs as a single in-line object. hash: { name: Steve, foo: bar } 
 
-### 数组
+### arrays
 A set of lines beginning with a hyphenated line forms an array.
 - Cat
 - Dog
