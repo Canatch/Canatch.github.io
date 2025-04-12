@@ -9,9 +9,9 @@
 title: Canatch blog
 description: This is a blog to record some deeplearning knowledges
 github_username: canatch
-background-color: #e5e5f7;
+background-color: e5e5f7;
 background-image:  radial-gradient(#444cf7 0.5px, transparent 0.5px), 
-                     radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+                     radial-gradient(#444cf7 0.5px, e5e5f7 0.5px);
 background-size: 20px 20px;
 background-position: 0 0,10px 10px;
 # Email and twitter are optional:
