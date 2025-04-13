@@ -22,6 +22,10 @@ Looking at the 2D plot again, note that the blue dot clusters are more spread ou
 
 Thus, although the absolute distances between the two points are different, they are considered to be similar.
 
+### Principles of Mathematics
+Mathematically, the equation for the normal distribution is as follows.  
+
+
 ## Python code implementation
 
 Reference from [here](https://blog.csdn.net/haoji007/article/details/94962952) and  [here](https://www.cnblogs.com/PythonLearner/p/12903615.html)
