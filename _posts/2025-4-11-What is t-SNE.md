@@ -24,6 +24,32 @@ Thus, although the absolute distances between the two points are different, they
 
 ### Principles of Mathematics
 Mathematically, the equation for the normal distribution is as follows.  
+![1](images/a1.png)
+
+If we drop everything in front of the exponent and replace the mean with another point while solving for the scale problem discussed earlier, we get the equation:  
+![2](images/a2.png)  
+
+If we take a similar approach as above (measuring distances between points and mapping them to a probability distribution), we get the following equation.  
+![3](images/a3.png)  
+
+
+As before, we take the equation for a normal distribution, put everything in front of us, and divide the probability of one point with another, instead of implying that the sum that accounts for the scale is divided by the probability of all the other points (don't ask me why we got rid of the standard deviation). If we can make the probability distributions of the points in the simplified feature space approximate the points in the original feature space, we get well-defined clusters.
+
+To do this, we use something called KL scatter.KL scatter is a measure of how different one probability distribution is from another.
+
+![v2-456fd5a12c77f994b4fee7d98e52cae9_1440w](https://github.com/user-attachments/assets/7d5db1cc-0b5f-4031-8904-c6608e31f563)
+
+The lower the value of KL scatter, the closer the two distributions are. a KL scatter of 0 means that the two distributions are identical.
+
+This should hopefully lead to tons of ideas. Recall how, in the case of linear regression, we determined the line of best fit by minimizing the cost function (i.e., mean square error) using gradient descent. In t-SNE, we use gradient descent to minimize the sum of the Kullback-Leiber differences across all data points.
+
+![4](images/a4.png)  
+
+![v2-2ff8846c929ef9e863194e2eb47f8357_1440w](https://github.com/user-attachments/assets/cc088889-c081-4d6b-b168-79aa81b49d50)
+
+We take the partial derivative of the cost function with respect to each point in order to get the direction of each update.
+
+![5](images/a5.png)  
 
 
 ## Python code implementation
